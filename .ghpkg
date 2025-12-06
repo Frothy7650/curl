@@ -1,6 +1,5 @@
 {
   "name": "curl",
-  "version": "8.17.0",
   "description": "Utility for sending and receiving data from websites.",
   "clone_command": "git clone ",
   "clone_url": "https://github.com/curl/curl.git",
