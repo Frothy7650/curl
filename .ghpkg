@@ -3,9 +3,9 @@
   "description": "Utility for sending and receiving data from websites.",
   "clone_command": "git clone ",
   "clone_url": "https://github.com/curl/curl.git",
-  "build": "cd $tempcurl && cmake . && make",
+  "build": "cd /tmp/curl && cmake . && make",
   "binary_name": "curl",
   "binary_dir": "src/",
   "dependencies": [],
-  "os": ["macos", "linux", "windows"]
+  "os": ["macos", "linux"]
 }
