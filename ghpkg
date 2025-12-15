@@ -4,6 +4,7 @@
   "clone_command": "git clone ",
   "clone_url": "https://github.com/curl/curl.git",
   "build": "cd /tmp/curl && cmake . && make",
+  "post": "",
   "binary_name": "curl",
   "binary_dir": "src/",
   "dependencies": [],
