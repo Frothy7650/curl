@@ -1,0 +1,25 @@
+pkgname = "curl"
+pkgver = "8.18.0"
+pkgrel = 1
+pkgdesc = "A command line tool and library for transferring data with URL syntax."
+url = "https://github.com/curl/curl/"
+license = "MIT"
+source = "https://codeload.github.com/curl/curl/tar.gz/curl-8_18_0"
+dirname = "curl-curl-8_18_0"
+sha256sum = "be4b1e146ddd84bbb57f081e5c7238eee794e40563976ba2c89a44c433da219c"
+depends = []
+libdepends = []
+makedepends = ["gcc", "make", "cmake"]
+libmakedepends = []
+os = ["linux"]
+option = []
+post = []
+
+build = [
+  "cmake .",
+  "make -j$(nproc)"
+]
+
+[[file]]
+src = "src/curl"
+dst = "/usr/bin/curl"
